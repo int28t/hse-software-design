@@ -1,0 +1,38 @@
+# Локальные кеши, бинарные файлы и отчеты, которые не должны попадать в Git.
+# Go
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+/vendor/
+
+# Tools and reports
+/.cache/
+/coverage.html
+/coverage.xml
+/report.xml
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, contains data from locals and tests
+*.out
+coverage.txt
+coverage.lcov
+
+# Go workspaces
+go.work
+go.work.sum
+
+# env files (containing secrets)
+.env
